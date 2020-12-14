@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.T. WorkerList Bangladesh</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="WorkerList.css">
+</head>
+<body>
+    <div class="container">
+    <div><h1 style="text-align: center;"><i class="fas fa-fire" style="color: firebrick;"></i> S.T. <span style="color: rgb(212, 33, 33);">WorkerList</span> Bangladesh</h1></div>
+<form id="Worker-form">
+    <div class="form-group">
+                <label for="id">WorkerId: </label>
+                <input type="number" name="workerId" id="workerId" placeholder="Enter Worker-Id">
+    </div>
+    <div class="form-group">
+                <label for="name">WorkerName: </label>
+                <input type="text" name="workerName" id="workerName" placeholder="Enter Worker-Name">
+    </div>           
+    <div class="form-group"> 
+                <label for="phoneNumber">PhoneNumber: </label>
+                <input type="number" name="phoneNumber" id="phoneNumber" placeholder="Enter Phone-Number">
+    </div>        
+                <button class="btn" type="submit" value="Submit">Submit</button>
+</form>
+<table class="workTable">
+    <thead>
+        <tr>  
+            <th>Worker-Id</th>
+            <th>Worker-Name</th>
+            <th>Phone-Number</th>
+        </tr>
+    </thead>
+    <tbody id="workerList">
+      
+    </tbody>
+</table>
+</div>
+<script src="WorkerList.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    overflow: hidden;
+}
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Worker-form{
+    position: relative;
+    left: 35%;
+    top: 40%;
+    background-position: center;
+    
+}
+.form-group{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    margin-left: 4px;
+    margin-right: 5px;
+    display: block;
+    width: 36%;
+    text-align: center;
+}
+input[type=text],input[type=number]{
+    position: relative;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: block;
+    width: 80%;
+    text-align: left;
+    font-size: 15px;
+}
+input[type=number]:hover{
+    background-color: lightgray;
+    transition: .3s;
+}
+input[type=number]:active{
+    background-color: lightgray;
+    transition: .3s;
+}
+input[type=text]:hover{
+    background-color: lightgray;
+    transition: .3s;
+}
+input[type=text]:active{
+    background-color: lightgray;
+    transition: .3s;
+}
+label{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: relative;
+    right: 10%;
+}
+.btn{
+    background-color: firebrick;
+    color: ghostwhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-left: 4px;
+    margin-right: 0px;
+    margin-top: 50px;
+    width: 30%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ 
+}
+.btn:hover{
+    background-color:lightgray;
+    color: firebrick;
+    transition: .5s;
+}
+
+.workTable{
+    border-collapse: collapse;
+    position: relative;
+    left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: firebrick;
+    margin-top: 50px;
+    width: 30%;
+}
+th{
+    text-align: left;
+    width: 30%;
+    padding-left: 30px;
+    font-size: 17px;
+    border-bottom: 2px solid firebrick;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr{
+    cursor: pointer;
+    background-color: floralwhite;
+}
+tr:hover{
+    background-color: ghostwhite;
+}
